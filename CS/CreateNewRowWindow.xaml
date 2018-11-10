@@ -1,4 +1,4 @@
-﻿<Window x:Class="AddNewRow.CreateNewRowWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="CreateNewRowWindow" Height="180" Width="300">
+<Window x:Class="AddNewRow.CreateNewRowWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="CreateNewRowWindow" Height="180" Width="300">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="VerticalAlignment" Value="Center"/>
