@@ -45,9 +45,6 @@
     <Reference Include="DevExpress.Xpf.Core.v13.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v13.1.Core">
-      <Private>True</Private>
-    </Reference>
     <Reference Include="DevExpress.Xpf.Printing.v13.1">
       <Private>True</Private>
     </Reference>
