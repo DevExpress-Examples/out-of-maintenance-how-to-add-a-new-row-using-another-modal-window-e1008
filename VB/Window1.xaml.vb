@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.ComponentModel
 Imports System.Windows
 
@@ -7,13 +6,14 @@ Namespace AddNewRow
 
 	Partial Public Class Window1
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
 
 		Public ReadOnly Property ViewModel() As DemoViewModel
 			Get
-				Return CType(DataContext, DemoViewModel)
+				Return DirectCast(DataContext, DemoViewModel)
 			End Get
 		End Property
 
